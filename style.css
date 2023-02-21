@@ -6,12 +6,13 @@ body {
 .bg-white {
   background-color: white;
   border-radius: 2px;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem 1rem 1rem; */
+  padding: 1rem;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.4);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
-.bg-white h1 {
+.bg-white h1, h2 {
   margin: 0;
 }
