@@ -19,10 +19,11 @@ minus.addEventListener('click', () => {
 body.addEventListener('click', () => {
   let size = 0
   let brandNew = true
-
-
+  let quantity = parseInt(counter.innerText, 0)
   size = seis.checked ? 36 : 100
+  let subtotal = size * quantity * 1000
+
   brandNew = nueva.checked
 
-  response.innerText = `${brandNew ? 'nueva' : 'usada'} - ${size}`
+  response.innerText = `$${brandNew ? subtotal : subtotal * 0.75}.00`
 })
