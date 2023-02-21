@@ -16,3 +16,12 @@ body {
 .bg-white h1, h2 {
   margin: 0;
 }
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.quantity input, p {
+  margin-right: 1rem;
+}
